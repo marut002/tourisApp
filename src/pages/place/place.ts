@@ -21,7 +21,7 @@ data = [];
   }
 
   ionViewDidLoad() {
-   this.http.post("http://localhost/touristAppApi/get-place.php",
+   this.http.post("http://10.70.44.238/touristAppApi/get-place.php",
    JSON.stringify({
      limit:3
    })
