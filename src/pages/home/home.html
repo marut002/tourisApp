@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      หน้าแรก
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+
+        <ion-item>
+          <ion-label fixed>Username</ion-label>
+          <ion-input type="text" value=""[(ngModel)]="name"></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label fixed>Password</ion-label>
+          <ion-input type="text"[(ngModel)]="lname"></ion-input>
+        </ion-item>
+      
+      </ion-list>
+  
+  name= {{name}}{{iname}}<br>
+  <button ion-button color="secondary"(click)="show()">Secondary</button>
+  <button ion-button color="dark"(click)="gotoplace()">ดูสถามที่่</button>
+</ion-content>
